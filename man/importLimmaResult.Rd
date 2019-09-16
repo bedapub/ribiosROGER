@@ -4,8 +4,8 @@
 \alias{importLimmaResult}
 \title{Import the content of a EdgeResult object into the database}
 \usage{
-importLimmaResult(conn, eSet, eSetFit, enrichTbl, valType = c("RMA", "MAS5"),
-  xref = NA, anno = FALSE, verbose = TRUE)
+importLimmaResult(conn, eSet, eSetFit, enrichTbl, valType = c("RMA",
+  "MAS5"), xref = NA, anno = FALSE, verbose = TRUE)
 }
 \arguments{
 \item{conn}{Database connection}

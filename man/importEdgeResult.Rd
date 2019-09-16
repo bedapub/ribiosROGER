@@ -4,8 +4,8 @@
 \alias{importEdgeResult}
 \title{Import the content of a EdgeResult object into the database}
 \usage{
-importEdgeResult(conn, edgeResult, edgeObject, phenoData = NULL, xref = NA,
-  anno = FALSE, enrichTbl, verbose = TRUE)
+importEdgeResult(conn, edgeResult, edgeObject, phenoData = NULL,
+  xref = NA, anno = FALSE, enrichTbl, verbose = TRUE)
 }
 \arguments{
 \item{conn}{Database connection}
