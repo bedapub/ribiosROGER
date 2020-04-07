@@ -512,7 +512,7 @@ limmaDgeTable <- function(eFit, contrast=NULL) {
 #'
 #' @return The \code{ExpressionSet} object, with phenoData modified
 #' 
-#' @importFrom Biobase sampleNames read.AnnotatedDataFrame
+#' @importFrom Biobase sampleNames read.AnnotatedDataFrame `pData<-`
 #'
 #' @export
 maPhenoData <- function(eset, phenoDataFile=NULL, groups=NULL) {
