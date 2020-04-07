@@ -4,8 +4,7 @@
 \alias{addContrasts}
 \title{Add a set of new Contrasts to an existing Design}
 \usage{
-addContrasts(conn, designID, contrastMatrix, names = NULL,
-  descriptions = NULL)
+addContrasts(conn, designID, contrastMatrix, names = NULL, descriptions = NULL)
 }
 \arguments{
 \item{conn}{Database connection}

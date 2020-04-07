@@ -4,8 +4,15 @@
 \alias{addDesign}
 \title{Add a new design to an existing Dataset}
 \usage{
-addDesign(conn, datasetID, name = "New design", description = NA,
-  sampleSubset, featureSubset, designMatrix)
+addDesign(
+  conn,
+  datasetID,
+  name = "New design",
+  description = NA,
+  sampleSubset,
+  featureSubset,
+  designMatrix
+)
 }
 \arguments{
 \item{conn}{Database connection}

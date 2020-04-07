@@ -4,8 +4,15 @@
 \alias{writeDfToDb}
 \title{Write  data.frame to  a database connection}
 \usage{
-writeDfToDb(conn, data.frame, tableName = "testDf", row.names = FALSE,
-  overwrite = FALSE, append = TRUE, ...)
+writeDfToDb(
+  conn,
+  data.frame,
+  tableName = "testDf",
+  row.names = FALSE,
+  overwrite = FALSE,
+  append = TRUE,
+  ...
+)
 }
 \arguments{
 \item{conn}{A database connection}
