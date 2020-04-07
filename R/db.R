@@ -152,8 +152,7 @@ assertFeatureSubset <- function(featureSubset) {
 #' myList2 <- list(list(myTeam="HSV", score=19), list(yourTeam="FCB", score=13))
 #' myBlob1 <- blobs(myList1)
 #' myBlob2 <- blobs(myList2)
-#' myDf <- rbind(data.frame(Day=1, Object=myBlob1),
-#'               data.frame(Day=2, Object=myBlob2))
+#' myDf <- data.frame(Day=c(1,2), Object=c(myBlob1, myBlob2))
 #' myCon <- dbConnect(SQLite(), ":memory:")
 #' dbWriteTable(conn=myCon, name="testBlobs", value=myDf)
 #' myDfOut <- dbReadTable(conn=myCon, name="testBlobs")
