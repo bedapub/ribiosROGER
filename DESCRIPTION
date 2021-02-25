@@ -33,3 +33,7 @@ Collate:
     'db.R'
     'factors.R'
 RoxygenNote: 7.1.0
+Remotes:
+    github::bedapub/ribiosNGS,
+    github::bedapub/ribiosExpression,
+    github::bedapub/ribiosUtils
